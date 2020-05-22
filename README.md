@@ -1,4 +1,5 @@
 # Python_Project_euler
 
-This Repo Consists of my python solution to Project_euler.
+Solution to the project euler probrlems.
+
 The 1.py contains solutions to questions 1 - 3.
