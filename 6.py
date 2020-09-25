@@ -55,3 +55,28 @@ def diff_sum(n):
     print(diff)
 
 diff_sum(100)
+
+
+#Using while loop.
+
+import math
+
+def sum_diff(num):
+
+    i = 1
+    square_sum = 0
+    sum = 0
+    while (i <= num):
+        #sum of the first 100 natural .
+        sum +=i
+        #sum of the square of first 100 natural number.
+        square_sum += pow(i,2)
+        i +=1
+    #sum of the first 100 natural number square.
+    # pow(sum,2)
+    # #sum of the square of first 100 natural number.
+    # square_sum
+    diff = (pow(sum,2)) - square_sum
+    return (diff)
+
+print(sum_diff(100))
